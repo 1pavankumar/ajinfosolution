@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -62,7 +63,7 @@ body > div.container > div > section.section2 > div > div.col-lg-4 > div {
     display: none;
     position: fixed;
     bottom: 20px;
-    right: 30px;
+    /* right: 30px; */
     z-index: 99;
     font-size: 18px;
     border: 1px solid white;
@@ -81,6 +82,11 @@ body > div.container > div > section.section2 > div > div.col-lg-4 > div {
   #slide-img{
     height: 550px;
   }
+  .form-actions {
+    margin: 0;
+    background-color: transparent;
+    text-align: center;
+}
   @media screen and (min-width: 320px) and (max-width: 768px){
     #slide-img{
       width:100%;
@@ -93,9 +99,9 @@ body > div.container > div > section.section2 > div > div.col-lg-4 > div {
     </style>
   </head>
   <body data-spy="scroll" data-target=".navbar" data-offset="50">
-    
+    <div class="form-actions">
     <button id="myBtn" title="Back to top" href="#">TOP</button>
-    
+    </div>
     <nav id="nav" class="navbar navbar-default navbar-fixed-top">
       <div class="container-fluid">
         <div class="navbar-header">
